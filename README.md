@@ -1,2 +1,2 @@
 # videofps
-a vibe coding fps game with steam video
+a vibe coding fps game with stream video
