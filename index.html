@@ -58,7 +58,7 @@
 <div class="net-row" data-page-node-id="0qFw1tyifYv808pODoXvUd"><label for="netCodeFormat" data-page-node-id="gR72JAUXchT0CLKQqcgQGl">连接码格式</label><select id="netCodeFormat" data-page-node-id="pAa3cPCzQpNswvMQVfAnxk"><option value="compact" data-page-node-id="ZnLnXR6LfXFKoSOotpTrsx">精简 + 完整性校验（推荐）</option><option value="legacy" data-page-node-id="PZrBa2ESGHxoCSooEgdE35">兼容 D2P2（长码）</option></select><small data-page-node-id="HN1FjncemE0CwRPzPogIDm">CODEFIX 2.1.1</small></div>
 <label for="netOutput" class="chapter" data-page-node-id="gxe9fJnvlojd7KSewsfzfg">OUT / &#21457;&#36865;&#32473;&#23545;&#26041;</label><textarea id="netOutput" readonly spellcheck="false" autocapitalize="off" autocorrect="off"></textarea><p id="netCodeInfo" role="status" style="font-size:10px;overflow-wrap:anywhere" data-page-node-id="qipdavIrfb63Axb5Sfa4Ke"></p><div class="net-row" data-page-node-id="ei7w1xBPjVoj8sTTuwCAN8"><button class="secondary" id="netCopy" data-page-node-id="XXHKJqxGv9VqS7FeoTRRfA">&#22797;&#21046;</button><button class="secondary" id="netSaveCode" data-page-node-id="p5BGipSTmOatHB8h5pLywP">&#20445;&#23384;&#36830;&#25509;&#30721;</button></div>
 <label for="netInput" class="chapter" data-page-node-id="e5USiOwOWxBEknmDB3aHuU">IN / &#31896;&#36148;&#23545;&#26041;&#36830;&#25509;&#30721;</label><textarea id="netInput" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="D2P2Z. / D2P2U. / D2P2. ..."></textarea><div class="net-row" data-page-node-id="BzlV5T5xxra2Q0ZVzkuZyS"><button class="primary" id="netImport" data-page-node-id="rcsHReH8IGcwH7Mf60msid">&#23548;&#20837;&#36992;&#35831; / &#24212;&#31572;</button><button class="secondary" id="netLoadCode" data-page-node-id="StkGvX28fojNmyDLt7XF8W">&#35835;&#21462;&#36830;&#25509;&#30721;&#25991;&#20214;</button><input id="netCodeFile" type="file" accept=".txt,.json" hidden data-page-node-id="vp6gaS90KFl9EqLvn0sZeI"></div>
-<details data-page-node-id="6OH1lGdmJewfzPP8rEqA7l"><summary data-page-node-id="NIu4uyBi6bjpEtFqt33zNa">STUN / TURN &#39640;&#32423;&#35774;&#32622;</summary><div class="net-row" data-page-node-id="kcCzNTTAmO2tpMkhnkSJi3"><label for="netStun" data-page-node-id="Xr38aSzFIqYbS5q2BGTC8I">STUN</label><input id="netStun" value="stun:stun.l.google.com:19302" data-page-node-id="swSbI4YquCeYR946Gsec5T"></div><div class="net-row" data-page-node-id="IyPcAceGK5m1Jvys2SR83m"><label for="netTurn" data-page-node-id="94aDWsmImRRyE0G3tDIgDF">TURN</label><input id="netTurn" placeholder="turn:example.org:3478" data-page-node-id="YX5fTvh2DN8w5C1HFMDBRY"></div><div class="net-row" data-page-node-id="oBG18eHdemHqj4QkHnAGA2"><input id="netTurnUser" placeholder="TURN username" autocomplete="off" data-page-node-id="jupDub7a49DdyBKuQYkWX8"><input id="netTurnPass" type="password" placeholder="TURN credential" autocomplete="off" data-page-node-id="YbIN514ORkrlAhPI3aKS5E"></div><p data-page-node-id="0UvBXrBIYdSg9z04i7HBuE">&#40664;&#35748;&#19981;&#20351;&#29992; TURN&#12290;&#28155;&#21152; TURN &#21518;&#21487;&#33021;&#36890;&#36807;&#20013;&#32487;&#65292;&#19981;&#20877;&#26159;&#32431;&#30452;&#36830;&#12290;&#20973;&#25454;&#19981;&#20250;&#20889;&#20837;&#36830;&#25509;&#30721;&#25110;&#26412;&#22320;&#23384;&#20648;&#12290;</p></details>
+<details data-page-node-id="6OH1lGdmJewfzPP8rEqA7l"><summary data-page-node-id="NIu4uyBi6bjpEtFqt33zNa">STUN / TURN &#39640;&#32423;&#35774;&#32622;</summary><div class="net-row" data-page-node-id="sTunPr01Xb7QmZ3vLd92Kf"><label for="netStunPreset" data-page-node-id="sTunLb02Tq5WnJ8yHc3Md">STUN 线路</label><select id="netStunPreset" data-page-node-id="sTunSe03Vg6PoR1zBf9Uk"><option value="auto" selected>自动检测（推荐）</option><option value="cn">国内公共（小米 / 哔哩哔哩 / 斗鱼 / 芒果）</option><option value="miwifi">小米 MiWiFi</option><option value="google">Google（国际线路）</option><option value="custom">自定义</option></select><button class="secondary" type="button" id="netStunTest" data-page-node-id="sTunBt05Yh2SjW4eCp6Lz">检测连通性</button></div><div class="net-row" data-page-node-id="kcCzNTTAmO2tpMkhnkSJi3"><label for="netStun" data-page-node-id="Xr38aSzFIqYbS5q2BGTC8I">STUN</label><input id="netStun" readonly spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="stun:stun.miwifi.com:3478" data-page-node-id="sTunIn04Kd8RvNq2Lm7Xb"></div><p id="netStunHint" role="status" style="font-size:10px;margin:2px 0 8px">默认自动选择可用线路；全部不可达时可切到「自定义」填入自己的 STUN。</p><div class="net-row" data-page-node-id="IyPcAceGK5m1Jvys2SR83m"><label for="netTurn" data-page-node-id="94aDWsmImRRyE0G3tDIgDF">TURN</label><input id="netTurn" placeholder="turn:example.org:3478" data-page-node-id="YX5fTvh2DN8w5C1HFMDBRY"></div><div class="net-row" data-page-node-id="oBG18eHdemHqj4QkHnAGA2"><input id="netTurnUser" placeholder="TURN username" autocomplete="off" data-page-node-id="jupDub7a49DdyBKuQYkWX8"><input id="netTurnPass" type="password" placeholder="TURN credential" autocomplete="off" data-page-node-id="YbIN514ORkrlAhPI3aKS5E"></div><p data-page-node-id="0UvBXrBIYdSg9z04i7HBuE">&#40664;&#35748;&#19981;&#20351;&#29992; TURN&#12290;&#28155;&#21152; TURN &#21518;&#21487;&#33021;&#36890;&#36807;&#20013;&#32487;&#65292;&#19981;&#20877;&#26159;&#32431;&#30452;&#36830;&#12290;&#20973;&#25454;&#19981;&#20250;&#20889;&#20837;&#36830;&#25509;&#30721;&#25110;&#26412;&#22320;&#23384;&#20648;&#12290;</p></details>
 <p class="net-notice" data-page-node-id="ldP0puSCnN9MFEFFF7Vk7P">&#36830;&#25509;&#30721;&#26159; SDP + ICE &#20449;&#20196;&#65292;&#19981;&#26159;&#31169;&#38053;&#12290;&#19981;&#35201;&#20844;&#24320;&#21457;&#24067;&#12290;&#20005;&#26684; NAT / &#38450;&#28779;&#22681;&#19979;&#65292;&#32431; P2P &#19981;&#20445;&#35777;&#21487;&#36798;&#65307;&#36830;&#25509;&#22833;&#36133;&#21487;&#26356;&#25442;&#32593;&#32476;&#25110;&#26126;&#30830;&#37197;&#32622; TURN&#12290;</p></section></div>
 <div class="net-footer" data-page-node-id="64IexqXKuBXACXJqj1RDUY"><span id="netStats" data-page-node-id="0PknIQ9e1KsBw7bttMKRbZ"></span><div class="net-row" data-page-node-id="1rlyYkXjEeaMWLQCEGbX7c"><button class="secondary" id="netLogSave" data-page-node-id="lvAACHPpjAWAXCdToVMN5b">&#23548;&#20986;&#35786;&#26029;</button><button class="secondary" id="netComms" data-page-node-id="gPsl4cFCA3n5qHE85KRNui">音视频通话 / Alt+C</button><button class="secondary" id="netLeave" disabled data-page-node-id="HrnxQvduZEXLLFPr8ogvR5">&#26029;&#24320;&#24182;&#36820;&#22238;&#21333;&#26426;</button></div></div><details data-page-node-id="8txc8Fb9dEsN1i32FjOACQ"><summary data-page-node-id="hBshDuQn0LdduaVdFqcY60">&#36830;&#25509;&#26085;&#24535;</summary><pre id="netLog" data-page-node-id="d625c8IQre7hQ83c4WOdjR"></pre></details>
 </div></div>
@@ -995,9 +995,9 @@ syncAssistUI();
 function netEscape(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function netId(){let b=new Uint8Array(16);crypto.getRandomValues(b);return Array.from(b,x=>x.toString(16).padStart(2,'0')).join('');}
 function netName(s){return Array.from(String(s||'').normalize('NFKC').replace(/[^\p{L}\p{N} _.\-\u00b7]/gu,'').trim()).slice(0,18).join('')||'Operator';}
-const NET_BUILD='dust2-p2p-2.2.2-rig',NET_VERSION=2,NET_STEP=1/60,NET_SNAPSHOT_MS=1000/15;
+const NET_BUILD='dust2-p2p-2.3.0-stun',NET_VERSION=2,NET_STEP=1/60,NET_SNAPSHOT_MS=1000/15;
 const NET_BASE={startMatch,toLobby,finishMatch,spawn,infect,chooseMother,updateGame,updateBot,thinkBot,shoot,equip,reload,purchase,dropWeapon,throwGrenade,frenzy,damage,die,detonate,explodeBomb,roundWin,resetRound,pickupNearby,updateInteract,setGodMode,setFlyMode,enemy,renderShop,setScreen,showBanner,burst,addTracer,playShot};
-NET={active:false,role:'none',get host(){return this.active&&this.role==='host';},uid:netId(),room:null,epoch:null,myId:0,name:'Operator',side:'auto',peers:new Map(),rooms:new Map(),allowAssists:false,backup:null,predicting:false,applying:false,leaving:false,pending:[],inputSeq:0,cmdSeq:0,lastPump:0,acc:0,lastInputSend:0,lastPublish:0,lastKeyframe:0,lastSnapshot:0,lastHostTime:0,lastHostAt:0,stateSeq:0,correction:[0,0,0],localNextShot:0,localFireLatch:false,fx:[],logs:[],sent:0,received:0,lastBytes:[0,0],rate:[0,0],aiSteps:0,authoritySteps:0,guestSteps:0,rejected:0,statsAt:0,joinStarted:0,joinTarget:null,native:!!window.DUST2_LAN,nativeReady:false,nativeError:'',bc:null,signalChain:Promise.resolve(),seenFX:0,busyButtons:new Set()};
+NET={active:false,role:'none',get host(){return this.active&&this.role==='host';},uid:netId(),room:null,epoch:null,myId:0,name:'Operator',side:'auto',peers:new Map(),rooms:new Map(),allowAssists:false,backup:null,predicting:false,applying:false,leaving:false,pending:[],inputSeq:0,cmdSeq:0,lastPump:0,acc:0,lastInputSend:0,lastPublish:0,lastKeyframe:0,lastSnapshot:0,lastHostTime:0,lastHostAt:0,stateSeq:0,correction:[0,0,0],localNextShot:0,localFireLatch:false,fx:[],logs:[],sent:0,received:0,lastBytes:[0,0],rate:[0,0],aiSteps:0,authoritySteps:0,guestSteps:0,rejected:0,statsAt:0,joinStarted:0,joinTarget:null,native:!!window.DUST2_LAN,nativeReady:false,nativeError:'',bc:null,signalChain:Promise.resolve(),seenFX:0,busyButtons:new Set(),stunPreset:'auto',stunAuto:[],stunResults:null,stunProbe:null};
 
 // ---- HostAdapter: existing host links + missing guest/guest mesh edges. ----
 // All six room edges are host-owned PCs. Combat authority and snapshots stay
@@ -1204,10 +1204,11 @@ function netEnvSnapshot(){try{
 function netIceConfigSnapshot(){try{
   let iceMode='';try{iceMode=$('#netIceMode')?.value||'';}catch{}
   let codeFormat='';try{codeFormat=$('#netCodeFormat')?.value||'';}catch{}
-  let stun=[];try{stun=String($('#netStun')?.value||'').split(/[\s,]+/).filter(Boolean).slice(0,3);}catch{}
+  let stunPreset='';try{stunPreset=$('#netStunPreset')?.value||'';}catch{}
+  let stun=[],stunBad=0;try{const pr=netParseStunList($('#netStun')?.value||'');stun=pr.urls;stunBad=pr.bad.length;}catch{}
   let turnUrl='';try{turnUrl=String($('#netTurn')?.value||'').trim();}catch{}
   let turnHost='';try{if(turnUrl)turnHost=turnUrl.replace(/^(turns?:)/i,'').slice(0,80);}catch{}
-  return {iceMode,codeFormat,stunUrls:stun,turnConfigured:!!turnUrl,turnHost,lanImpliesNoStun:iceMode==='lan'};
+  return {iceMode,codeFormat,stunPreset,stunUrls:stun,stunInvalid:stunBad,turnConfigured:!!turnUrl,turnHost,lanImpliesNoStun:iceMode==='lan',stunAuto:(NET.stunAuto||[]).slice(),stunProbe:(NET.stunResults||[]).map(r=>({url:r.url,ok:r.ok,ms:r.ms,weak:!!r.weak,note:r.note}))};
 }catch(e){return {error:String(e?.message||e).slice(0,120)};}}
 function netPcSnapshot(pc){try{
   if(!pc)return null;
@@ -1241,11 +1242,191 @@ function netReadConfig(){return {mode:Object.hasOwn(MODE,$('#netMode').value)?$(
 function netSaveIdentity(){NET.name=netName($('#netName').value);NET.side=['auto','ct','t','human','zombie','random'].includes($('#netSide').value)?$('#netSide').value:'auto';try{localStorage.setItem('dust2-p2p-name',NET.name);}catch{}}
 function netEnter(role,room){if(NET.active)throw Error('\u8bf7\u5148\u65ad\u5f00\u5f53\u524d\u623f\u95f4');netSaveIdentity();NET.backup={godMode:settings.godMode,flyMode:settings.flyMode,flySpeed:settings.flySpeed};if(match)NET_BASE.toLobby();NET.active=true;NET.role=role;NET.room=room;NET.myId=role==='host'?0:null;NET.epoch=null;NET.roster=[];NET.allowAssists=role==='host'&&$('#netAssists').checked;NET.pending=[];NET.inputSeq=NET.cmdSeq=NET.lastSnapshot=0;NET.correction=[0,0,0];NET.localNextShot=0;NET.localFireLatch=false;NET.lastPump=performance.now();NET.acc=0;NET.aiSteps=NET.authoritySteps=NET.guestSteps=0;settings.godMode=settings.flyMode=false;syncAssistUI();netOpen();netRefresh();}
 function netHost(){if(typeof RTCPeerConnection!=='function')throw Error('WebRTC is unavailable in this browser');if(NET.host)return NET.room;netEnter('host',netId());try{netConnEvent('room-created',{role:'host',roomPrefix:String(NET.room||'').slice(0,8),env:netEnvSnapshot(),ice:netIceConfigSnapshot()});}catch{}netStatus('\u623f\u95f4\u5df2\u521b\u5efa\u3002\u6700\u591a 4 \u540d\u4eba\u7c7b\u73a9\u5bb6\uff1bBOT \u6570\u91cf\u72ec\u7acb\u8bbe\u7f6e\u3002');netAnnounce();return NET.room;}
-function netOpen(){setScreen('network');if(match)$('#netMode').value=match.mode;netRefresh();netDiscover().catch(()=>{});}
+function netOpen(){setScreen('network');if(match)$('#netMode').value=match.mode;netRefresh();netDiscover().catch(()=>{});try{if(NET.stunPreset==='auto'&&!NET.stunAuto&&!NET.stunProbe)netAutoStun().catch(()=>{});}catch(e){}}
 function netRoster(){if(!NET.active)return [];if(NET.host)return [{id:0,name:NET.name,side:NET.side,status:'HOST',host:true},...Array.from(NET.peers.values(),p=>({id:p.id,name:p.name||'P'+p.id,side:p.side||'auto',status:p.joined?'READY':p.pc.connectionState.toUpperCase(),link:p.link,ping:p.rtt||0,route:p.route||''}))];return NET.roster||[];}
 function netRefresh(){syncMediaRoom();const active=NET.active,host=NET.host;$('#netHost').disabled=active;$('#netLeave').disabled=!active;$('#netStart').disabled=!host;$('#netRoom').disabled=!host||!match;$('#netOffer').disabled=!host||NET.peers.size>=3;$('#netName').disabled=active;$('#netSide').disabled=active;for(let id of ['netMode','netBots','netDifficulty','netAssists'])$('#'+id).disabled=active&&!host||!!match&&!match.ended;$('#netAdvertise').disabled=active&&!host;$('#netRoster').innerHTML=netRoster().map(p=>'<div class="net-peer"><span>'+netEscape(p.name)+' <small>'+(p.id===0?'HOST':'P'+p.id)+' / '+netEscape(p.side)+' / '+netEscape(p.status)+(p.ping?' / '+Math.round(p.ping)+'ms':'')+'</small></span>'+(host&&p.id!==0?'<span><button data-net-show="'+p.link+'">SDP</button> <button data-net-kick="'+p.link+'">\u79fb\u9664</button></span>':'')+'</div>').join('');for(let b of $('#netRoster').querySelectorAll('[data-net-kick]'))b.onclick=()=>{let p=NET.peers.get(b.dataset.netKick);if(p)netRemovePeer(p,'\u623f\u4e3b\u79fb\u9664\u8fde\u63a5');};for(let b of $('#netRoster').querySelectorAll('[data-net-show]'))b.onclick=()=>{let p=NET.peers.get(b.dataset.netShow);netShowCode(p?.offer||'');};$('#netLanHint').textContent=NET.nativeReady?'LAN \u52a9\u624b\u5df2\u8fde\u63a5\uff1a\u7ec4\u64ad\u53d1\u73b0\uff0c\u81ea\u52a8\u4ea4\u6362\u4fe1\u4ee4\u3002':NET.native?'LAN \u52a9\u624b\u6682\u4e0d\u53ef\u7528\uff1a'+NET.nativeError:'\u5f53\u524d\u662f\u7eaf\u7f51\u9875\uff1a\u53ef\u53d1\u73b0\u540c\u6e90\u540c\u6d4f\u89c8\u5668\u6807\u7b7e\u9875\uff1b\u8de8\u7535\u8111\u9700 LAN \u52a9\u624b\u6216\u624b\u52a8\u8fde\u63a5\u7801\u3002';netRenderRooms();for(let id of NET.busyButtons)$('#'+id).disabled=true;}
 function netBroadcastRoster(){if(!NET.host)return;let roster=netRoster();for(let p of NET.peers.values())if(p.joined)netSend(p,{type:'roster',roster});netRefresh();netAnnounce();}
-function netConfigICE(profile){if(profile==='lan')return {iceServers:[],iceCandidatePoolSize:0};let servers=[],urls=$('#netStun').value.split(/[\s,]+/).filter(s=>/^stuns?:[a-z0-9.[\]:_-]+$/i.test(s)).slice(0,3);if(urls.length)servers.push({urls});let turn=$('#netTurn').value.trim();if(turn){if(!/^turns?:[^\s]+$/i.test(turn))throw Error('TURN URL \u683c\u5f0f\u9519\u8bef');servers.push({urls:turn,username:$('#netTurnUser').value,credential:$('#netTurnPass').value});}return {iceServers:servers,iceCandidatePoolSize:0};}
+
+/* ================= STUN 线路：预设 / 自定义 / 自动探测（国内可用优先） =================
+   背景：stun.l.google.com 在国内网络基本不可达，导致「互联网 / STUN」模式形同虚设。
+   策略：并发探测一批国内外公共 STUN，按可用性与延迟自动选取；全不可达则提示自定义。
+   注：stun.qq.com 域名可解析但不应答，故刻意不列入候选。 */
+const STUN_PRESETS={
+  auto:{label:'自动检测',urls:null},
+  cn:{label:'国内公共',urls:['stun:stun.miwifi.com:3478','stun:stun.chat.bilibili.com:3478','stun:stun.douyucdn.cn:18000','stun:stun.hitv.com:3478']},
+  miwifi:{label:'小米 MiWiFi',urls:['stun:stun.miwifi.com:3478']},
+  google:{label:'Google 国际线路',urls:['stun:stun.l.google.com:19302','stun:stun1.l.google.com:19302']},
+  custom:{label:'自定义',urls:null}
+};
+const STUN_POOL=[
+  ['stun:stun.miwifi.com:3478','小米',1],
+  ['stun:stun.chat.bilibili.com:3478','哔哩哔哩',1],
+  ['stun:stun.douyucdn.cn:18000','斗鱼',1],
+  ['stun:stun.hitv.com:3478','芒果',1],
+  ['stun:stun.l.google.com:19302','Google',0],
+  ['stun:stun.cloudflare.com:3478','Cloudflare',0]
+];
+const STUN_FALLBACK=STUN_PRESETS.cn.urls.slice();
+const STUN_MAX=4;
+/* ICE URL 解析：兼容 stun:/stuns:/turn:/turns:，允许省略协议前缀与端口（默认 3478）
+   漏写前缀的 host:port 不会被当成协议；协议写错（如 http://、turn: 当 STUN）会明确报错 */
+const STUN_KNOWN_SCHEMES=['stun','stuns','turn','turns','http','https','ws','wss','file','ftp'];
+function netNormIceUrl(raw,schemes,label){
+  let t=String(raw==null?'':raw).trim();
+  if(!t)return {ok:false,reason:'为空'};
+  const auth=/^([a-zA-Z][a-zA-Z0-9+.-]*):\/\//.exec(t);
+  const bare=/^([a-zA-Z][a-zA-Z0-9+.-]*):/.exec(t);
+  let scheme='',body=t;
+  if(auth){scheme=auth[1].toLowerCase();body=t.slice(auth[0].length);}
+  else if(bare&&STUN_KNOWN_SCHEMES.indexOf(bare[1].toLowerCase())>=0){scheme=bare[1].toLowerCase();body=t.slice(bare[0].length);}
+  else body=t.replace(/^\/+/,'');
+  if(scheme&&schemes.indexOf(scheme)<0)return {ok:false,reason:label+' 协议应为 '+schemes.join('/')};
+  if(!scheme)scheme=schemes[0];
+  const m=/^(\[[0-9a-fA-F:.]+\]|[a-zA-Z0-9](?:[a-zA-Z0-9._-]*[a-zA-Z0-9])?)(?::(\d{1,5}))?(?:\?transport=(udp|tcp))?$/.exec(body);
+  if(!m)return {ok:false,reason:'主机名或端口不合法'};
+  if(!/^\[/.test(m[1])&&m[1].indexOf('..')>=0)return {ok:false,reason:'主机名含连续点'};
+  let port=3478;
+  if(m[2]!==undefined){port=Number(m[2]);if(!(port>=1&&port<=65535))return {ok:false,reason:'端口需在 1-65535'};}
+  return {ok:true,url:scheme+':'+m[1].toLowerCase()+':'+port+(m[3]?'?transport='+m[3].toLowerCase():'')};
+}
+function netNormStun(raw){return netNormIceUrl(raw,['stun','stuns'],'STUN');}
+function netNormTurn(raw){return netNormIceUrl(raw,['turn','turns'],'TURN');}
+function netParseStunList(raw){
+  const parts=String(raw==null?'':raw).split(/[\s,;，；、]+/).filter(Boolean),urls=[],bad=[];
+  for(let p of parts){const r=netNormStun(p);if(r.ok)urls.push(r.url);else bad.push({input:p,reason:r.reason});}
+  const uniq=Array.from(new Set(urls));
+  return {urls:uniq.slice(0,STUN_MAX),bad,empty:parts.length===0,total:uniq.length};
+}
+function netStunHint(text,state){
+  const el=$('#netStunHint');if(!el)return;
+  el.textContent=text;
+  el.style.color=state==='ok'?'#8fd6a0':state==='bad'?'#ef8f8f':state==='warn'?'#e7c07a':state==='busy'?'#9fd0e8':'';
+}
+function netStunIceNote(){
+  try{if($('#netIceMode')&&$('#netIceMode').value==='lan')return '　⚠ 当前 ICE 模式为「直连 / 不请求外部服务」，此处 STUN 不会生效；跨网联机请切到「互联网 / STUN」。';}catch(e){}
+  return '';
+}
+/* 单个 STUN 连通性探测：发出 srflx（服务器反身）候选即证明服务器确有应答 */
+function netProbeStun(url,timeout=2500){
+  return new Promise(resolve=>{
+    if(typeof RTCPeerConnection!=='function')return resolve({ok:false,ms:-1,weak:false,note:'no-webrtc'});
+    let pc=null,t0=performance.now(),settled=false,cands=0;
+    const finish=(ok,note,weak,addr)=>{
+      if(settled)return;settled=true;
+      try{if(pc)pc.close();}catch(e){}
+      resolve({ok:!!ok,ms:Math.round(performance.now()-t0),weak:!!weak,note:note||'',addr:addr||''});
+    };
+    try{
+      pc=new RTCPeerConnection({iceServers:[{urls:url}],iceCandidatePoolSize:0});
+      pc.createDataChannel('d2-stun-probe');
+      pc.onicecandidate=e=>{
+        if(!e.candidate)return;
+        cands++;
+        const ty=e.candidate.type;
+        if(ty==='srflx'||ty==='prflx')finish(true,'srflx',false,String(e.candidate.address||''));
+      };
+      pc.onicegatheringstatechange=()=>{
+        /* 未产生 srflx 却已收齐候选：多半本机已具备公网地址（此类 srflx 会被浏览器去重），
+           视为可用但降级参与排序，避免误判为不通 */
+        if(pc.iceGatheringState==='complete')finish(cands>0,'complete',true);
+      };
+      pc.createOffer().then(o=>pc.setLocalDescription(o)).catch(()=>finish(false,'offer-failed',false));
+      setTimeout(()=>finish(false,'timeout',false),timeout);
+    }catch(e){finish(false,'construct',false);}
+  });
+}
+/* 并发探测候选池，自动选取可用且延迟最低的一组写入 STUN 输入框 */
+async function netAutoStun(force){
+  if(NET.stunProbe)return NET.stunProbe;
+  if(!force&&NET.stunAuto&&NET.stunAuto.length&&NET.stunResults)return NET.stunResults;
+  const run=(async()=>{
+    netStunHint('正在并发探测 '+STUN_POOL.length+' 个 STUN 服务器…','busy');
+    const t0=performance.now();
+    const rs=await Promise.all(STUN_POOL.map(async p=>Object.assign({url:p[0],name:p[1],cn:!!p[2]},await netProbeStun(p[0]))));
+    NET.stunResults=rs;
+    const good=rs.filter(r=>r.ok),bad=rs.filter(r=>!r.ok),cost=Math.round(performance.now()-t0);
+    /* 出口地址多数表决：经代理/VPN 的线路会报出与真实 NAT 映射不同的公网地址，
+       其对端根本不可达，必须剔除，否则会把这类线路误选成可用 */
+    const strong=good.filter(r=>r.note==='srflx'&&r.addr),weak=good.filter(r=>strong.indexOf(r)<0);
+    let pool=good;
+    const tally=new Map();
+    for(let r of strong)tally.set(r.addr,(tally.get(r.addr)||0)+1);
+    if(tally.size>1){
+      let maxN=0;for(let n of tally.values())if(n>maxN)maxN=n;
+      const majority=Array.from(tally).filter(x=>x[1]===maxN).map(x=>x[0]);
+      pool=strong.filter(r=>majority.indexOf(r.addr)>=0).concat(weak);
+    }
+    /* 排序：可用优先 → 国内优先（避免选中经代理的境外出口）→ 延迟低者优先 */
+    const picked=pool.slice().sort((a,b)=>(a.weak?1:0)-(b.weak?1:0)||(a.cn?0:1)-(b.cn?0:1)||a.ms-b.ms).slice(0,STUN_MAX);
+    if(picked.length){
+      NET.stunAuto=picked.map(r=>r.url);
+      if(NET.stunPreset==='auto'&&!NET.active)netStunValue(NET.stunAuto.join(' '));
+      const ex=Array.from(new Set(picked.map(r=>r.addr).filter(Boolean)));
+      const note=ex.length===1?'，公网出口 '+ex[0]:ex.length>1?'，出口多源 '+ex.join('/'):'';
+      netStunHint('✓ 自动选择：'+picked.map(r=>r.name+' '+r.ms+'ms').join(' · ')+(bad.length?'　不可达：'+bad.map(r=>r.name).join('/'):'')+'（'+cost+'ms'+note+'）'+netStunIceNote(),'ok');
+    }else{
+      NET.stunAuto=[];
+      if(NET.stunPreset==='auto'&&!NET.active)netStunValue('');
+      netStunHint('✗ '+rs.map(r=>r.name).join('/')+' 全部不可达。请切到「自定义」手动填入你的 STUN（如 stun:your.host:3478）；否则只能局域网直连，或改用 TURN 中继。','bad');
+      try{toast('未探测到可用 STUN；请在 ICE 高级设置中自定义填写');}catch(e){}
+    }
+    try{netConnEvent('stun-probe',{results:rs,auto:NET.stunAuto,elapsedMs:cost});}catch(e){}
+    return rs;
+  })();
+  NET.stunProbe=run;
+  try{return await run;}finally{if(NET.stunProbe===run)NET.stunProbe=null;}
+}
+function netStunValue(v){const el=$('#netStun');if(el)el.value=v;}
+function netCustomStunHint(){
+  const pr=netParseStunList($('#netStun').value);
+  if(pr.empty){netStunHint('自定义模式：请填写 stun:主机:端口，例如 stun:stun.miwifi.com:3478','warn');return;}
+  if(pr.bad.length){netStunHint('✗ 格式错误：'+pr.bad.map(b=>b.input+'（'+b.reason+'）').join('；')+'　正确示例 stun:stun.miwifi.com:3478','bad');return;}
+  netStunHint('✓ 格式正确 · '+pr.total+' 个地址'+(pr.total>STUN_MAX?'（最多使用前 '+STUN_MAX+' 个）':'')+'　可点「检测连通性」验证'+netStunIceNote(),'ok');
+}
+function netApplyStunPreset(preset,opts){
+  const o=opts||{},key=Object.hasOwn(STUN_PRESETS,preset)?preset:'auto';
+  NET.stunPreset=key;
+  const sel=$('#netStunPreset'),el=$('#netStun');
+  if(sel&&sel.value!==key)sel.value=key;
+  if(el){el.readOnly=key!=='custom';el.placeholder=key==='custom'?'stun:stun.example.com:3478':'自动填入';}
+  try{localStorage.setItem('dust2-p2p-stun',key);}catch(e){}
+  if(key==='auto'){
+    if(NET.stunAuto&&NET.stunAuto.length){
+      netStunValue(NET.stunAuto.join(' '));
+      netStunHint('使用自动探测结果：'+NET.stunAuto.join(' ')+netStunIceNote(),'ok');
+    }else{
+      netStunValue(STUN_FALLBACK.join(' '));
+      if(o.probe===false)netStunHint('打开联机面板时自动探测；当前预置国内公共地址（小米 / 哔哩哔哩 / 斗鱼 / 芒果）'+netStunIceNote(),'busy');
+      else{netStunHint('正在自动检测线路…（已预置国内公共地址，探测完成后自动替换）','busy');netAutoStun().catch(()=>{});}
+    }
+    return;
+  }
+  if(key==='custom'){
+    let saved='';try{saved=localStorage.getItem('dust2-p2p-stun-custom')||'';}catch(e){}
+    netStunValue(saved);
+    netCustomStunHint();
+    return;
+  }
+  const urls=STUN_PRESETS[key].urls||[];
+  netStunValue(urls.join(' '));
+  netStunHint('使用预设线路：'+STUN_PRESETS[key].label+'（'+urls.length+' 个地址）'+netStunIceNote(),'ok');
+}
+
+function netConfigICE(profile){
+  if(profile==='lan')return {iceServers:[],iceCandidatePoolSize:0};
+  const pr=netParseStunList($('#netStun').value);
+  if(pr.bad.length)throw Error('STUN 地址格式错误：'+pr.bad.map(b=>b.input+'（'+b.reason+'）').join('；')+'；正确示例 stun:stun.miwifi.com:3478');
+  const servers=[];
+  if(pr.urls.length)servers.push({urls:pr.urls});
+  const turnRaw=String($('#netTurn').value||'').trim();
+  if(turnRaw){
+    const t=netNormTurn(turnRaw);
+    if(!t.ok)throw Error('TURN URL 格式错误：'+t.reason+'；示例 turn:1.2.3.4:3478');
+    servers.push({urls:t.url,username:$('#netTurnUser').value,credential:$('#netTurnPass').value});
+  }
+  if(!servers.length)throw Error('未配置可用的 ICE 服务器：请在「STUN / TURN 高级设置」选择线路，或自定义填入 STUN（如 stun:stun.miwifi.com:3478）');
+  return {iceServers:servers,iceCandidatePoolSize:0};
+}
 function netSend(p,m,live=false){let ch=live?p.state:p.control;if(!ch||ch.readyState!=='open')return false;let limit=live?131072:1048576;if(ch.bufferedAmount>limit){if(!live)netRemovePeer(p,'\u53ef\u9760\u901a\u9053\u6301\u7eed\u62e5\u585e');return false;}try{let data=JSON.stringify({v:NET_VERSION,room:NET.room,...m});if(data.length>62000){netLog('Packet exceeded 62 KB; dropped');return false;}ch.send(data);NET.sent+=new TextEncoder().encode(data).length;return true;}catch(e){netLog('Send: '+e.name);return false;}}
 function netBroadcast(m,live=false){if(NET.host)for(let p of NET.peers.values())if(p.joined)netSend(p,m,live);}
 function netBindChannel(p,ch){if(!['d2-control','d2-state'].includes(ch.label)){ch.close();return;}let isControl=ch.label==='d2-control';if(p[isControl?'control':'state']){ch.close();return;}p[isControl?'control':'state']=ch;ch.binaryType='arraybuffer';ch.onopen=()=>{if(!NET.active||NET.peers.get(p.link)!==p)return;netLog(ch.label+' OPEN / P'+p.id);try{netConnEvent('channel-open',{id:p.id,label:ch.label,pc:netPcSnapshot(p.pc)});}catch{}if(isControl&&!NET.host)netSend(p,{type:'hello',build:NET_BUILD,name:NET.name,side:NET.side});netRefresh();};ch.onmessage=event=>{if(!NET.active||NET.peers.get(p.link)!==p)return;let raw=event.data;if(typeof raw!=='string'||raw.length>96000){NET.rejected++;return;}let now=performance.now();if(now-p.windowAt>1000){p.windowAt=now;p.windowCount=0;}if(++p.windowCount>400){NET.rejected++;return;}NET.received+=new TextEncoder().encode(raw).length;try{let m=JSON.parse(raw);if(!m||m.v!==NET_VERSION||m.room!==NET.room||typeof m.type!=='string')return;netReceive(p,m,isControl);}catch(e){NET.rejected++;netLog('Rejected packet: '+e.name);}};ch.onerror=()=>netLog(ch.label+' channel error');ch.onclose=()=>{try{netConnEvent('channel-close',{id:p.id,label:ch.label,pc:(()=>{try{return netPcSnapshot(p.pc);}catch{return null;}})()});}catch{}if(NET.active&&NET.peers.get(p.link)===p)netRemovePeer(p,'\u6570\u636e\u901a\u9053\u5df2\u65ad\u5f00');};}
@@ -1501,6 +1682,36 @@ for (const id of ['hudComms', 'netComms', 'lobbyComms']) {
 
 const netPublic=Object.freeze({host:netHost,createOffer:()=>netCreateOffer(),importCode:code=>netImport(code),start:netStart,toRoom:netToRoom,leave:netLeave,discover:netDiscover,join:netJoin,open:netOpen,diagnostics:netDiagnostics,rooms:()=>Array.from(NET.rooms.values()).map(r=>({key:r.key,kind:r.kind,room:r.room,...r.meta}))});
 $('#netMode').innerHTML=Object.entries(MODE).map(([id,m])=>'<option value="'+id+'">'+netEscape(m.name)+'</option>').join('');$('#netMode').value=selectedMode;try{$('#netName').value=localStorage.getItem('dust2-p2p-name')||'Operator';}catch{$('#netName').value='Operator';}
+
+/* --- STUN 线路 UI 绑定 --- */
+try{
+  const sp=$('#netStunPreset'),se=$('#netStun');
+  if(se)se.addEventListener('input',()=>{
+    if(NET.stunPreset!=='custom')return;
+    try{localStorage.setItem('dust2-p2p-stun-custom',se.value);}catch(e){}
+    netCustomStunHint();
+  });
+  if(sp)sp.addEventListener('change',()=>netApplyStunPreset(sp.value,{probe:true}));
+  const bt=$('#netStunTest');
+  if(bt)bt.onclick=()=>netBusy(bt,async()=>{
+    if(NET.stunPreset==='auto'){await netAutoStun(true);return;}
+    const pr=netParseStunList($('#netStun').value);
+    if(pr.empty)throw Error('请先填写 STUN 地址，例如 stun:stun.miwifi.com:3478');
+    if(pr.bad.length)throw Error('STUN 格式错误：'+pr.bad.map(b=>b.input+'（'+b.reason+'）').join('；')+'；正确示例 stun:stun.miwifi.com:3478');
+    netStunHint('正在测试 '+pr.urls.length+' 个地址…','busy');
+    const rs=await Promise.all(pr.urls.map(async u=>Object.assign({url:u},await netProbeStun(u))));
+    const good=rs.filter(r=>r.ok),dead=rs.filter(r=>!r.ok);
+    const short=u=>u.replace(/^stuns?:/,'');
+    if(good.length)netStunHint('✓ 可用：'+good.map(r=>short(r.url)+' '+r.ms+'ms').join(' · ')+(dead.length?'　不可达：'+dead.map(r=>short(r.url)).join('/'):'')+netStunIceNote(),'ok');
+    else netStunHint('✗ 全部不可达：请更换地址（可试 stun:stun.miwifi.com:3478），或改用 TURN 中继','bad');
+    try{toast(good.length?'STUN 可用 '+good.length+'/'+rs.length:'STUN 不可达，请更换地址或使用 TURN');}catch(e){}
+  });
+  const im=$('#netIceMode');
+  if(im)im.addEventListener('change',()=>{try{netApplyStunPreset(NET.stunPreset,{probe:false});}catch(e){}});
+  let savedPreset='auto';try{savedPreset=localStorage.getItem('dust2-p2p-stun')||'auto';}catch(e){}
+  netApplyStunPreset(savedPreset,{probe:false});
+}catch(e){try{console.warn('STUN UI init:',e);}catch(_){}}
+
 $('#networkBtn').onclick=$('#hudNetwork').onclick=netOpen;
 $('#netClose').onclick=()=>{if(match&&!match.ended)resume();else if(match?.ended)setScreen('results');else setScreen('lobby');};
 $('#netHost').onclick=()=>netBusy($('#netHost'),netHost);$('#netStart').onclick=()=>netBusy($('#netStart'),()=>netStart());$('#netRoom').onclick=()=>netToRoom();$('#netLeave').onclick=()=>netLeave('\u4e3b\u52a8\u79bb\u5f00\u623f\u95f4');$('#netDiscover').onclick=()=>netBusy($('#netDiscover'),netDiscover);$('#netOffer').onclick=()=>netBusy($('#netOffer'),()=>netCreateOffer());$('#netImport').onclick=()=>netBusy($('#netImport'),()=>netImport($('#netInput').value));$('#netAdvertise').onchange=netAnnounce;
@@ -1537,7 +1748,7 @@ function drawFrame(now,capture=false){let realDt=lastTime?Math.min((now-lastTime
  frames++;frame++;if(now-lastFps>1200){fps=Math.round(frames*1000/(now-lastFps||1200));lastFps=now;frames=0;if(match)$('#perf').innerHTML=fps+' FPS / LOCAL<br>'+entities.filter(e=>e.alive).length+' ACTIVE / '+(softwareRenderer?'SOFTWARE':'WEBGL 2');}if(!capture)requestAnimationFrame(drawFrame);
 }
 function snapshot(){return {screen,assists:{godMode:settings.godMode,flyMode:settings.flyMode,flySpeed:settings.flySpeed,activeFlight:isFlying(player),used:match?.assistUsed},mode:match?.mode,phase:match?.phase,time:match?.t,round:match?.round,bomb:match?.bomb&&{...match.bomb},scores:match?.scores,player:player&&{x:player.x,y:player.y,z:player.z,hp:player.hp,armor:player.armor,alive:player.alive,zombie:player.zombie,kills:player.kills,deaths:player.deaths,money:player.money,weapon:currentWeapon(player),inventory:player.inventory},bots:entities.filter(e=>e.bot).map(e=>({id:e.id,x:e.x,z:e.z,hp:e.hp,alive:e.alive,kills:e.kills,team:e.team,zombie:e.zombie,target:e.targetId,pathLength:e.path.length,pathAt:e.pathAt,goal:e.goal})),navigation:{walkable:queue.length,total:nav.length},network:NET?.active?netDiagnostics():null,stats:{triangles:totalVertices/3,colliders:colliders.length,fps}};}
-window.Dust2Game={version:'2.2.2-p2p-rig',snapshot,setGodMode,setFlyMode,network:netPublic,media:MEDIA,mediaAdapter:mediaBridge};
+window.Dust2Game={version:'2.3.0-p2p-stun',snapshot,setGodMode,setFlyMode,network:netPublic,media:MEDIA,mediaAdapter:mediaBridge};
 if(location.hash==='#test')window.__FPS_TEST={net:netPublic,get networkState(){return NET;},networkTick:netPump,networkStatePacket:netStatePacket,networkCommand:netCommand,networkPublish:()=>netPublish(true),get player(){return player;},get entities(){return entities;},get match(){return match;},get nav(){return nav;},get effects(){return effects;},get projectiles(){return projectiles;},get smokes(){return smokes;},get settings(){return settings;},start:startMatch,step:(seconds,dt=1/60)=>{let n=Math.ceil(seconds/dt);for(let i=0;i<n;i++)updateGame(dt);updateHUD(true);return snapshot();},setPosition,damage,shoot,equip,reload,purchase,updateInteract,roundWin,infect,clearLOS,wallRay,pathfind,collides,safePoint,moveEntity,detonate,throwGrenade,finishMatch,resetRound,spawn,setScreen,drawFrame,snapshot,canBuy,makeWeapon,currentWeapon,siteAt,explodeBomb,groundAt,frenzy,dropWeapon,pickupNearby,enemy,entityRay,updatePhysics,updateMovement,setGodMode,setFlyMode,isGod,isFlying,landPlayerSafely,applySpawnAssists,chooseMother,die,toLobby,restart,get keys(){return keys;},setKeys:value=>{keys={...value};},get lastResult(){return lastResult;},WEAPONS,MODE};
 requestAnimationFrame(drawFrame);$('#loadText').textContent='BATTLEFIELD READY / '+queue.length+' NAV NODES';setTimeout(()=>{$('#loader').style.opacity=0;setTimeout(()=>$('#loader').remove(),370);},300);
 })();
